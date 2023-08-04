@@ -18,9 +18,9 @@ body{
     margin: 0;
     background-color: var(--Charcoal-Grey);
     padding: 0;
-    /* width: 100%; */
-    
 }
+   
+    
 
 .main-content{
     margin: 0;
@@ -46,14 +46,11 @@ body{
 
 }
 .content-section{
-  
     margin: 5rem 0 5rem 2rem;
     display: block;
     width: 36rem;
     text-align: center;
     font-size: 1.3rem;
-
- 
 }
 
 .content-title{
@@ -62,7 +59,6 @@ body{
     color: var(--Dark-Slate-Grey);
     margin-bottom: 0;
 }
-
 .content-paragrafo{
    margin-top: 1rem;
    text-align: left;
@@ -70,27 +66,15 @@ body{
    margin-left: 1.7rem;
 }
     
- 
-
-
 .content-list{
     text-align: left;
     display: block;
    
 }
-   
-   
-    
-
-
-
 .article-list {
     list-style-type: none;
     list-style-image:url(assets/images/icon-list.svg);
 }
-  
-    
-    
 
 .article-list li{
     line-height: 30px;
@@ -102,19 +86,11 @@ body{
     margin-right: 1rem;
     
 }
-    
-    
-     
-
 .content-nav{
     padding: 1rem;
     text-align: left;
-    
-    
 }
-   
     
-
 .content-nav .label{
     display: block;
     font-size: 1.2rem;
@@ -129,55 +105,48 @@ body{
     margin-bottom: 1.4rem;
    
 }
-
+    
+   
 .labels{
     display: flex;
     gap: 10rem;
-    /* justify-content: space-between; */
+    
 }
-
 .erro{
     color:var(--tomato);
 }
 
-
-/* .content-nav .erro:not(.err) input{
-    background-color:hsl(4, 99%, 72%);
-    color: var(--tomato);
-}     */
-    
- 
 .content-nav input:focus{
-   border-color: none;
-   outline: 0;
+  border-color: none;
+  outline: 0;
 }
 
 .content-nav input:hover{
-     cursor: pointer;
+    cursor: pointer;
 }
 
 .content-nav .btn{
-    padding: 1.2rem 6rem;
-    background-color: var(--Dark-Slate-Grey);
-    margin-bottom: 1.4rem;
-    color: white;
-    font-weight: bold;  
-    border-radius: 5px;
-    border-color: transparent;
- 
+   padding: 1.2rem 6rem;
+   background-color: var(--Dark-Slate-Grey);
+   margin-bottom: 1.4rem;
+   color: white;
+   font-weight: bold;  
+   border-radius: 5px;
+   border-color: transparent;
+
 
 }
 
 .content-nav .btn:hover{
-   background-color: var(--tomato);
-   transition: background-color .2s;
-   cursor: pointer;
-   box-shadow: 2px 2px 2px 1px hsl(4, 97%, 72%);
+  background-color: var(--tomato);
+  transition: background-color .2s;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 1px hsl(4, 97%, 72%);
+ 
   
-   
 }
 .content img{
-    padding: 2rem 2rem 2rem 1rem;
+   padding: 2rem 2rem 2rem 1rem;
 
 }
 
@@ -246,6 +215,34 @@ body{
 .hideErr{
     display: none;
 }
+    
+
+ 
+  
+
+
+ 
+
+
+   
+   
+    
+
+
+
+  
+    
+    
+    
+    
+     
+
+
+
+
+
+
+    
 
 
 
